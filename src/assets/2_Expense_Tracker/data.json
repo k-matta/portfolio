@@ -1,0 +1,32 @@
+[
+	{
+		"title": "Expense Tracker",
+		"stack": "JavaScript (Scriptable, Google Apps Script), Apple Shortcuts",
+		"info": "This project was designed as a simple way for me to track my spending each month."
+	},
+	{
+		"key": "Incorrect.jpeg",
+		"title": "Before Correcting Data",
+		"caption": "The menu to confirm a transaction; currently showing incorrect data."
+	},
+	{
+		"key": "Correcting.jpeg",
+		"title": "The Correction Form",
+		"caption": "The form used to fix an incorrect transaction."
+	},
+	{
+		"key": "Credit.jpeg",
+		"title": "Determining Transaction Type",
+		"caption": "The menu to determine the type of the corrected transaction."
+	},
+	{
+		"key": "Pie Chart.jpeg",
+		"title": "The Spending Pie Chart",
+		"caption": "The pie chart showing spending broken down by category."
+	},
+	{
+		"key": "List.jpeg",
+		"title": "The Spending List View",
+		"caption": "The list showing all spending grouped by date."
+	}
+]

@@ -1,0 +1,29 @@
+#about {
+	width: 95%;
+	margin: 0 2.5%;
+}
+
+h1 {
+	height: 1.65rem;
+	margin: 30px;
+}
+
+#about-container {
+	width: 100%;
+	text-align: justify;
+}
+
+#about-text {
+	display: inline-block;
+	text-align: justify;
+	vertical-align: top;
+	margin-right: 10%;
+	width: 70%;
+	color: white;
+}
+
+#about-img {
+	display: inline-block;
+	width: 15%;
+	max-width: 200px;
+}

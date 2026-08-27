@@ -1,0 +1,17 @@
+[
+	{
+		"title": "Leaderboard Discord Bot",
+		"stack": "JavaScript (Express.js, Playwright, Supabase.js)",
+		"info": "This project was designed to allow my friends and I to track our high scores in games and tournaments, allowing for friendly, competitive, fun. The leaderboards are stored in a PostgreSQL database."
+	},
+	{
+		"key": "Create Read and Update.png",
+		"title": "Create, Read, and Update Leaderboard",
+		"caption": "Showing how the bbot responds to creating, reading, and updating the leaderboard."
+	},
+	{
+		"key": "Delete.png",
+		"title": "Deleting a Leaderboard",
+		"caption": "Showing what happens when you delete a leaderboard."
+	}
+]

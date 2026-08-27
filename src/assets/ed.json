@@ -1,0 +1,21 @@
+[
+	{
+		"school": "McMaster University",
+		"degree": "Bachelor of Engineering - Computer Engineering (third year)",
+		"years": "2024 - Present",
+		"awards": [
+			"GPA: 3.9/4",
+			"Engineering Award of Excellence"
+		]
+	},
+	{
+		"school": "VLC",
+		"degree": "OSSD (High School Diploma)",
+		"years": "2020 - 2024",
+		"awards": [
+			"Grade 12 Average: 97%",
+			"Gr. 12 Computer Science Award",
+			"Gr. 12 Math Award"
+		]
+	}
+]

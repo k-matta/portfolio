@@ -1,0 +1,57 @@
+[
+	{
+		"title": "Discord Registration Bot",
+		"stack": "JavaScript (Express.js, Google Apps Script)",
+		"info": "This project was designed to allow for seamless verification of users for high school-only Discord servers. The bot was designed to alert admins (through a private channel) should two users register using the same email, one user attempts to register with multiple emails, and other anomalies."
+	},
+	{
+		"key": "Registration Start.png",
+		"title": "Beginning Registration",
+		"caption": "Initiating registration for a server."
+	},
+	{
+		"key": "Sheet Result.png",
+		"title": "Registration Result",
+		"caption": "The resulting data entered into server's registration sheet after a user registers for the server."
+	},
+	{
+		"key": "Registration Confirmation Link.png",
+		"title": "Confirmation Email",
+		"caption": "The confirmation link that is emailed to registering users in order to confirm their identity."
+	},
+	{
+		"key": "Sheet Confirmed.png",
+		"title": "Confirmed User Entry",
+		"caption": "What the spreadhseet entry looks like after a user confirms their email."
+	},
+	{
+		"key": "User Confirmed (Admins).png",
+		"title": "Confirmation Notification",
+		"caption": "The admin-only notification that is sent when a user confirms their email."
+	},
+	{
+		"key": "Fraud Warning.png",
+		"title": "Fraud Alert",
+		"caption": "The alert displayed to a user if they try to register with an email that has already been used."
+	},
+	{
+		"key": "Fraud Warning (admins).png",
+		"title": "Admin Fraud Alert",
+		"caption": "The admin-only alert displayed when a user tries to register with an email that has already been used."
+	},
+	{
+		"key": "Multi-email warning.png",
+		"title": "Multi-email Warning",
+		"caption": "The alert that is shown if a user tries to register under more than one email."
+	},
+	{
+		"key": "Multi-email warning (admins).png",
+		"title": "Admin Multi-email Warning",
+		"caption": "The admin-only alert that is sent if a user tries to register under more than one email."
+	},
+	{
+		"key": "Unconfirmed Duals (admins).png",
+		"title": "Admin Dual-registration Alert",
+		"caption": "The admin-only alert that is shown if two users both try to register with the same email before either one clicks the confirmation link."
+	}
+]

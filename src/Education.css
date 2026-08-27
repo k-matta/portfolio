@@ -1,0 +1,28 @@
+#education {
+	text-align: left;
+	color: white;
+	margin: 0 2.5%;
+}
+
+#education .title {
+	margin-left: 0;
+}
+
+.education {
+	padding-bottom: 10px;
+}
+
+.title-time {
+	display: flex;
+	justify-content: space-between;
+}
+
+.education-title, .education-time {
+	display: inline-block;
+	margin-bottom: 0;
+}
+
+.education-awards {
+	margin-top: 0;
+	padding-inline-start: 20px;
+}

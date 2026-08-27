@@ -1,0 +1,22 @@
+[
+	{
+		"title": "Schedule Manager",
+		"stack": "JavaScript (front-end and backend), Playwright",
+		"info": "This project was designed to help me monitor my class schedule and buses by automatically pulling my schedule from the student center website. For buses, it then checks both the GO website and Google Maps for live updates."
+	},
+	{
+		"key": "Lecture Schedule.png",
+		"title": "Lecture Schedule",
+		"caption": "The lectures I have to attend for the day, including all relevant data."
+	},
+	{
+		"key": "Bus Schedule Coming.png",
+		"title": "Bus Schedule Coming",
+		"caption": "The list of busses I can take to get to school."
+	},
+	{
+		"key": "Bus Schedule Going.png",
+		"title": "Bus Schedule Going",
+		"caption": "The list of busses I can take to get home."
+	}
+]

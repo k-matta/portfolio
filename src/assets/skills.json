@@ -1,0 +1,33 @@
+[
+	{
+		"name": "Programming Skills",
+		"skills": [
+			"HTML/CSS/JS",
+			"Python",
+			"C/C++",
+			"React",
+			"Node.js",
+			"FastAPI",
+			"PostreSQL",
+			"Docker",
+			"Linux"
+		]
+	},
+	{
+		"name": "Hardware Skills",
+		"skills": [
+			"Verilog"
+		]
+	},
+	{
+		"name": "Soft Skills",
+		"skills": [
+			"Communication Skills",
+			"Professionalism",
+			"Self-starter",
+			"Independent learning & research",
+			"Problem solving",
+			"Work ethic"
+		]
+	}
+]

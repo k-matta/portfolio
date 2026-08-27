@@ -1,0 +1,17 @@
+[
+	{
+		"title": "Color Match Game",
+		"stack": "HTML, CSS, JavaScript",
+		"info": "This project was designed as a fun challenge I gave myself to make a fun, client-side browser game. Score results are stored in a cookie to save scores across play sessions."
+	},
+	{
+		"key": "Color Match.png",
+		"title": "The Game",
+		"caption": "WHat the main game's interface looks like."
+	},
+	{
+		"key": "Color Match Results.png",
+		"title": "Game Results",
+		"caption": "How scores are shown and calculated."
+	}
+]

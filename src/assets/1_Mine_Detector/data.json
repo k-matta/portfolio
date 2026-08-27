@@ -1,0 +1,37 @@
+[
+	{
+		"title": "Mine Detector",
+		"stack": "HTML, CSS, JavaScript (Front-end and Express.js, Supabase.js)",
+		"info": "This project is a clone of the classic Minesweeper game which I created from scratch. It supports customizable board sizes and numbers of mines in addition to seeding the random number generator for repeating boards. This game was designed to be played as a Discord Activity and will store your best time against your Discord user ID for future sessions.<br>You can play the game on [Discord](https://discord.com/oauth2/authorize?client_id=1462849859362230362) or view the source code on [GitHub](https://github.com/k-matta/mine_detector)."
+	},
+	{
+		"key": "Mine_Detector_Menu.png",
+		"title": "Main Menu",
+		"caption": "The landing screen of Mine Detector."
+	},
+	{
+		"key": "Mine_Detector_Custom_Game.png",
+		"title": "Create Custom Game Form",
+		"caption": "The menu to create a customized game in Mine Detector."
+	},
+	{
+		"key": "Mine_Detector_Standard_Game.png",
+		"title": "Standard Game Board",
+		"caption": "The start of a standard game."
+	},
+	{
+		"key": "Mine_Detector_Game_Over.png",
+		"title": "The Game Over Screen",
+		"caption": "The game over screen showing how many mines were left to flag."
+	},
+	{
+		"key": "Mine_Detector_Over_View_Board.png",
+		"title": "The Game Over Board View",
+		"caption": "The view showing all correctly flagged mines (green) and all missing/incorrect flags (red)."
+	},
+	{
+		"key": "Mine_Detector_Win_Old_Record.png",
+		"title": "The Game Win Screen",
+		"caption": "The screen showing a win message and the user's previous record."
+	}
+]

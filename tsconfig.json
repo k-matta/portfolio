@@ -1,0 +1,10 @@
+{
+	"compilerOptions": {
+		"target": "ESNext",
+		"module": "ESNext",
+		"moduleResolution": "Node",
+		"types": ["vite/client"],
+		"jsx": "react-jsx"
+	},
+	"include": ["src", "src/vite-env.d.ts"]
+}

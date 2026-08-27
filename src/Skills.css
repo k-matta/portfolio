@@ -1,0 +1,18 @@
+#skills {
+	text-align: left;
+	margin: 0 2.5% 2.5%;
+	color: white;
+}
+
+#skills h2 {
+	margin-left: 0;
+}
+
+.skill-title {
+	margin-bottom: 0;
+}
+
+.skill-list {
+	margin-top: 10px;
+	padding-inline-start: 20px;
+}

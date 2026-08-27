@@ -1,0 +1,36 @@
+.project {
+	color: white;
+	width: 95%;
+	margin: 0% 2.5% 2.5%;
+	text-align: left;
+}
+
+.project-info {
+	display: inline-block;
+	margin-top: 2.5%;
+	width: 45%;
+	text-align: justify;
+	vertical-align: top;
+}
+
+.project .project-title {
+	margin-bottom: 0px;
+	font-size: 1.25rem;
+}
+
+.project .stack {
+	font-size: 0.75rem;
+	color: grey;
+}
+
+@media screen and (max-width: 750px) {
+	.project-info {
+		width: 95%;
+		margin-bottom: 5%;
+	}
+	
+	.project .gallery {
+		width: 95%;
+		margin-bottom: 5%;
+	}
+}
