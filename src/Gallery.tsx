@@ -72,7 +72,7 @@ function createImages(images: Array<imgData>, folder: string, setOverlay: Functi
 	for (let image of images) {
 		const capTitle = createElement('span', {className: 'caption-title'}, image.title);
 		const caption = createElement('figcaption', { className: 'gallery-caption' }, capTitle, createElement('br'), image.caption, createElement('br'), createElement('span', {className: "image-count"}, `${images.indexOf(image)+1}/${images.length}`));
-		const imageEl = createElement('img', { src: `./src/assets/${folder}/${image.key}`, className: 'gallery-image', onClick: () => {setOverlay(`./src/assets/${folder}/${image.key}`)} });
+		const imageEl = createElement('img', { src: `./${image.key}`, className: 'gallery-image', onClick: () => {setOverlay(`./${image.key}`)} });
 		figures.push(createElement('figure', { className: 'gallery-figure', key: `${image.key + Math.random()}` }, imageEl, caption));
 	}
 
