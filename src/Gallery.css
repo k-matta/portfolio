@@ -67,6 +67,7 @@
 .gallery-arrow img {
 	opacity: 25%;
 	transition: opacity 0.25s ease-in-out;
+	cursor: pointer;
 }
 
 .gallery-arrow img:hover {
@@ -97,6 +98,7 @@
 	background-color: #000;
 	user-select: none;
 	cursor: pointer;
+	object-fit: contain;
 }
 
 .gallery-images figure {
@@ -111,6 +113,15 @@ figcaption {
 figcaption .caption-title {
 	font-weight: bold;
 	font-size: 1rem;
+}
+
+@media screen and (max-width: 400px) {
+	.gallery-figure img {
+		aspect-ratio: auto;
+		height: auto;
+		width: auto;
+		object-fit: contain;
+	}
 }
 
 @media screen and (max-width: 800px) {

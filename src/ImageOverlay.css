@@ -14,7 +14,7 @@
 	right: 5%;
 	height: 40px;
 	width: 40px;
-	background-image: url('./src/assets/close_arrow.png');
+	background-image: url('./assets/close_arrow.png');
 	background-size: 35px;
 	background-position: 0.625px;
 	background-repeat: no-repeat;
