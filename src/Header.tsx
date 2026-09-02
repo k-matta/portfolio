@@ -28,13 +28,13 @@ function Header({ ids }: { ids: Array<string> }) {
 			>About Me</a>
 			<div tabIndex={nextIndex()} className='nav-link nav-projects'
 				onMouseOver={()=> { // Display and hide the list of projects on hover
-					document.getElementById('proj-links')!.style.maxHeight = '300px';
+					document.getElementById('proj-links')!.style.maxHeight = `${document.getElementById('proj-links')!.scrollHeight}px`;
 				}}
 				onMouseOut={()=> {
 					document.getElementById('proj-links')!.style.maxHeight = '0px';
 				}}
 				onFocus={()=> {
-					document.getElementById('proj-links')!.style.maxHeight = '300px';
+					document.getElementById('proj-links')!.style.maxHeight = `${document.getElementById('proj-links')!.scrollHeight}px`;
 				}}
 				onBlur={()=> {
 					document.getElementById('proj-links')!.style.maxHeight = '0px';
@@ -88,11 +88,11 @@ function Header({ ids }: { ids: Array<string> }) {
 			>About Me</a>
 			<button type='button' tabIndex={nextIndex()} className='nav-link nav-projects' id='projects-mobile'
 				onClick={()=> {
-					if (document.getElementById('projects-mobile')!.style.height.startsWith('calc')) {
+					if (document.getElementById('projects-mobile')!.style.height.endsWith('px')) {
 						document.getElementById('projects-mobile')!.style.height = `3.5rem`;
 						document.getElementById('nav-arrow')!.style.rotate = '90deg';
 					} else {
-						document.getElementById('projects-mobile')!.style.height = `calc(${numProjects*67.2}px + 3.5rem)`;
+						document.getElementById('projects-mobile')!.style.height = `${document.getElementById('projects-mobile')!.scrollHeight}px`;
 						document.getElementById('nav-arrow')!.style.rotate = '270deg';
 					}
 				}}
@@ -152,7 +152,7 @@ function genProjLinks(ids: Array<string>, index: number, mobile: boolean = false
 			)
 		);
 	}
-	if (mobile) return <div id='proj-links-mobile' style={{height: `${numProjects*67.2}px`}}>{linkEls}</div>;
+	if (mobile) return <div id='proj-links-mobile'>{linkEls}</div>;
 	return <div id='proj-links'>{linkEls}</div>;
 }
 
