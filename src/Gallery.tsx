@@ -24,6 +24,8 @@ export function Gallery({ imageData, folder, setOverlay }: { imageData: Array<im
 			<button
 				type="button"
 				className="left gallery-arrow"
+				onMouseOver={(event) => (event.currentTarget.firstElementChild as HTMLElement).style.opacity = '100%'}
+				onMouseOut={(event) => (event.currentTarget.firstElementChild as HTMLElement).style.opacity = '25%'}
 				onClick={(event) => {
 					// Get the gallery object
 					const gallery = event.currentTarget.parentElement!.firstElementChild!.firstElementChild as HTMLElement; // Non-null assertion can be used because the gallery's structure is strictly defined here.
@@ -32,7 +34,7 @@ export function Gallery({ imageData, folder, setOverlay }: { imageData: Array<im
 					// Get the current transform amount as a number, then shift by one image to the left
 					let numTransform = Number(strTransform.slice(16, strTransform.indexOf('%')));
 					numTransform += 100;
-
+					
 					// If moving beyond the first image, wrap to the end
 					if (numTransform > 0) numTransform -= (imageData.length)*(100);
 					
@@ -45,6 +47,8 @@ export function Gallery({ imageData, folder, setOverlay }: { imageData: Array<im
 			<button
 				type="button"
 				className="right gallery-arrow"
+				onMouseOver={(event) => (event.currentTarget.firstElementChild as HTMLElement).style.opacity = '100%'}
+				onMouseOut={(event) => (event.currentTarget.firstElementChild as HTMLElement).style.opacity = '25%'}
 				onClick={(event) => {
 					
 					// Get gallery and transform amount, then shift by one image to the right
